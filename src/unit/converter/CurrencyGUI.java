@@ -27,12 +27,15 @@ public class CurrencyGUI extends javax.swing.JFrame {
             String outputType = new String();
             outputType = destDropDown.getSelectedItem().toString();
             CurrencyConverter cc = new CurrencyConverter();
+            this.setCursor(new java.awt.Cursor(java.awt.Cursor.WAIT_CURSOR));
             if (cc.sendGETRequestToAPI(inputType, outputType, inputText))
             {
                 outputQuantity.setText(cc.getConvertedAmount());
+                this.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
             }
             else
             {
+                this.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
                 JFrame f = new JFrame();
                 f.setSize(100, 100);
                 f.setLayout(null);
