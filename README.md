@@ -5,12 +5,12 @@ For fetching live global currency rates, the api used is provided by: https://ap
 
 Main app screen:
 <img src="ss1.png">  
-
+<br />
 
 
 Unit conversion:
 <img src="ss2.png">  
-
+<br />
 
 
 Currency conversion:
