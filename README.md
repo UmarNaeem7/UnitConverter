@@ -4,14 +4,14 @@ Windows app that allows users to perform several unit conversions including fore
 For fetching live global currency rates, the api used is provided by: https://api.exchangerate.host/
 
 Main app screen:
-<img src="ss1.png">
+<img src="ss1.png">  
 
 
 
 Unit conversion:
-<img src="ss2.png">
+<img src="ss2.png">  
 
 
 
 Currency conversion:
-<img src="ss3.png">
+<img src="ss3.png">  
